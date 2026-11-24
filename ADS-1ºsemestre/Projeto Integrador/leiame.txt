@@ -1,0 +1,140 @@
+
+# Sistema Web para Gestão de Academia
+
+## Projeto Integrador I – FATEC Lins
+
+Curso: Análise e Desenvolvimento de Sistemas
+
+## Sobre o projeto
+
+Este projeto tem como objetivo propor o desenvolvimento de um sistema web para gestão de academias, integrando processos administrativos, financeiros e operacionais em uma única plataforma.
+
+A proposta busca reduzir atividades manuais, melhorar o controle das informações, facilitar a gestão de mensalidades e proporcionar maior segurança no acesso dos alunos às dependências da academia.
+
+## Problema identificado
+
+Academias podem enfrentar dificuldades relacionadas à gestão de alunos, controle de matrículas, acompanhamento de pagamentos, inadimplência e controle de acesso.
+
+A ausência de um sistema integrado pode gerar retrabalho, inconsistências nas informações e dificuldades na tomada de decisões.
+
+## Solução proposta
+
+Desenvolvimento de uma aplicação web que centralize os principais processos de gestão de uma academia, permitindo o acompanhamento das atividades administrativas, financeiras e operacionais.
+
+## Funcionalidades previstas
+
+- Autenticação e controle de permissões dos usuários.
+- Cadastro e gerenciamento de alunos.
+- Cadastro de funcionários e professores.
+- Gerenciamento de modalidades e planos.
+- Gestão de matrículas e contratos.
+- Geração automática de mensalidades.
+- Registro e gerenciamento de pagamentos.
+- Controle de inadimplência.
+- Aplicação de descontos, multas e juros.
+- Renovação automática de contratos.
+- Consultas e relatórios gerenciais.
+- Integração com catraca eletrônica.
+- Controle de acesso por reconhecimento facial.
+
+## Tecnologias definidas
+
+| Tecnologia | Finalidade |
+|---|---|
+| Python | Linguagem de programação |
+| Django | Framework de desenvolvimento web |
+| PostgreSQL | Sistema gerenciador de banco de dados |
+| HTML | Estruturação das interfaces |
+| CSS | Estilização das interfaces |
+| Bootstrap | Desenvolvimento de interfaces responsivas |
+| Git | Controle de versão |
+| GitHub | Hospedagem e colaboração |
+
+## Atividades desenvolvidas no semestre
+
+Durante o primeiro semestre do Projeto Integrador, as atividades foram direcionadas ao planejamento, levantamento de requisitos e especificação da solução.
+
+- Definição do tema e do problema.
+- Identificação do público-alvo.
+- Pesquisa de sistemas existentes no mercado.
+- Análise comparativa de soluções concorrentes.
+- Definição dos objetivos do sistema.
+- Delimitação do escopo do projeto.
+- Seleção das tecnologias.
+- Identificação dos requisitos funcionais e não funcionais.
+- Elaboração do Documento de Visão e Escopo.
+- Elaboração da Lista de Requisitos e Backlog Inicial.
+- Definição e documentação das regras de negócio.
+- Planejamento das próximas etapas do desenvolvimento.
+
+## Pesquisa de mercado
+
+Foram analisadas soluções existentes no mercado de gestão de academias:
+
+- Next Fit
+- Sistema Pacto
+- ABC Evo
+
+A análise contribuiu para a identificação de funcionalidades relevantes e para a definição do escopo da solução proposta.
+
+## Principais regras de negócio
+
+- Os contratos terão vigência de 12 meses.
+- Serão geradas 12 mensalidades automaticamente na matrícula.
+- O primeiro vencimento ocorrerá no mesmo dia do mês seguinte à matrícula.
+- Os contratos serão renovados automaticamente.
+- Os pagamentos deverão ser realizados integralmente.
+- Serão aceitos pagamentos em dinheiro, Pix, cartão de crédito e débito.
+- O sistema permitirá descontos em valor fixo ou percentual.
+- Em caso de atraso, será aplicada multa única de 10% e juros simples de 4% por período completo de 30 dias.
+- O controle de acesso permitirá tolerância de cinco dias corridos de atraso.
+- O acesso será controlado por reconhecimento facial integrado à catraca eletrônica.
+
+Os percentuais de multa e juros constituem requisitos acadêmicos e deverão ser validados juridicamente antes da utilização comercial.
+
+## Documentação
+
+Os documentos elaborados durante o semestre estarão disponíveis na pasta `docs` deste repositório.
+
+- Documento de Visão e Escopo.
+- Lista de Requisitos e Backlog Inicial.
+- Documento de Regras de Negócio.
+- Apresentação da Proposta de Solução (Pitch).
+
+## Status do projeto
+
+Em fase de documentação, planejamento e especificação de requisitos.
+
+Nesta etapa, o projeto não contempla a implementação do sistema.
+
+## Próximas etapas
+
+- Modelagem UML.
+- Modelagem do banco de dados.
+- Elaboração dos protótipos das interfaces.
+- Definição detalhada das permissões.
+- Configuração do ambiente de desenvolvimento.
+- Implementação das funcionalidades.
+- Realização de testes.
+- Validação da solução.
+
+## Equipe
+
+- Murilo Redondo Vanci
+- Everton de Almeira Barros
+- Matheus Zanotti
+- Maria Cristina Murchillo
+- Helena da Silva Mendes
+
+## Instituição
+
+Faculdade de Tecnologia de Lins – FATEC Lins
+
+Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas.
+
+Projeto Integrador I – 2026.
+
+---
+
+Projeto desenvolvido para fins acadêmicos.
+
